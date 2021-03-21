@@ -48,18 +48,16 @@ $char = readline();
 switch($char){
 
     case("D"):
-        $answer = "Tri raza v zub!";
+        echo "Tri raza v zub!";
         break;
     case("O"):
-        $answer = "Na kogo greh?";
+        echo "Na kogo greh?";
         break;
     case("P"):
-        $answer = "Mi s tobou za odno!";
+        echo "Mi s tobou za odno!";
         break;
 
     default: 
-        $answer = "Viberay!";
+        echo "Viberay!";
         break;
 }
-
-echo $answer;
